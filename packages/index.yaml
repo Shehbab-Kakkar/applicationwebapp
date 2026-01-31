@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  applicationwebapp:
+  - apiVersion: v2
+    appVersion: "1.1"
+    created: "2026-02-01T00:27:31.510278387+05:30"
+    description: Nginx Helm Chart with web page
+    digest: a059f1c8e19145341d5106719470e998898782a54f38df6273ac19f26980d8e8
+    name: applicationwebapp
+    urls:
+    - https://shehbab-kakkar.github.io/applicationwebapp/packages/applicationwebapp-0.1.1.tgz
+    version: 0.1.1
+generated: "2026-02-01T00:27:31.510075622+05:30"
