@@ -1,4 +1,4 @@
-# Create Packages
+# Create chart revision under Packages
 ```
   839  mv mywebapp applicationwebapp
   840  git push origin main
