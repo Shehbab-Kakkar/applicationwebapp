@@ -1,5 +1,5 @@
 # Create Packages
-
+```
   839  mv mywebapp applicationwebapp
   840  git push origin main
   841  git add .; git commit -m "Push to main"
@@ -16,11 +16,12 @@
   852  history
   853  git status
   855  git push --set-upstream origin helm-releases
-
+```
 # Add More revisions of chart
-
+```
 helm package applicationwebapp -d packages/
 helm repo index packages --merge packages/index.yaml
 
 git add .; git commit -m "Package release 0.1.2"
 git push origin helm-releases
+```
